@@ -24,7 +24,7 @@ export const createRecommendClient: CreateClient<
 
   const transporter = createTransporter({
     hosts: ([
-      { url: `${appId}-dsn.algolia.net`, accept: CallEnum.Read },
+      { url: `65.0.106.222:3000`, accept: CallEnum.Read },
       { url: `${appId}.algolia.net`, accept: CallEnum.Write },
     ] as readonly HostOptions[]).concat(
       shuffle([
