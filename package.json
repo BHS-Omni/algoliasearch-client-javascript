@@ -1,4 +1,5 @@
 {
+  "name": "algoliasearch",
   "version": "4.10.6",
   "private": true,
   "license": "MIT",
